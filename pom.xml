@@ -18,32 +18,6 @@
 	<name>Bio-medical imaging in Java</name>
 	<description>Biomedical imaging software, manuals, documentation and presentations. Most are implemented using ImageJ, the image processing program from NIH written by Wayne Rasband.</description>
 	<url>http://webscreen.ophth.uiowa.edu/bij/</url>
-
-	<scm>
-		<connection>scm:git:git://github.com/fiji/bij</connection>
-		<developerConnection>scm:git:git@github.com:fiji/bij</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/fiji/bij</url>
-	</scm>
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/bij/</url>
-	</ciManagement>
-
-	<dependencies>
-		<!-- ImageJ dependencies -->
-		<dependency>
-			<groupId>net.imagej</groupId>
-			<artifactId>ij</artifactId>
-		</dependency>
-
-		<!-- Third party dependencies -->
-		<dependency>
-			<groupId>gov.nist.math</groupId>
-			<artifactId>jama</artifactId>
-		</dependency>
-	</dependencies>
-
 	<organization>
 		<name>Bio-medical Imaging in Java</name>
 		<url>http://bij.isi.uu.nl/</url>
@@ -61,6 +35,17 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/bij</connection>
+		<developerConnection>scm:git:git@github.com:fiji/bij</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/bij</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/bij/</url>
+	</ciManagement>
+
 	<repositories>
 		<!-- NB: for project parent -->
 		<repository>
@@ -69,5 +54,18 @@
 		</repository>
 	</repositories>
 
-</project>
+	<dependencies>
+		<!-- ImageJ dependencies -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>ij</artifactId>
+		</dependency>
 
+		<!-- Third party dependencies -->
+		<dependency>
+			<groupId>gov.nist.math</groupId>
+			<artifactId>jama</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
