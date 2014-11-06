@@ -19,6 +19,17 @@
 	<description>Biomedical imaging software, manuals, documentation and presentations. Most are implemented using ImageJ, the image processing program from NIH written by Wayne Rasband.</description>
 	<url>http://webscreen.ophth.uiowa.edu/bij/</url>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/bij</connection>
+		<developerConnection>scm:git:git@github.com:fiji/bij</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/bij</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/bij/</url>
+	</ciManagement>
+
 	<dependencies>
 		<!-- ImageJ dependencies -->
 		<dependency>
