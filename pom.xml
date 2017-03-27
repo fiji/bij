@@ -77,8 +77,8 @@
 		<url>https://github.com/fiji/bij/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/bij/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/bij</url>
 	</ciManagement>
 
 	<properties>
