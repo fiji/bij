@@ -80,7 +80,8 @@
 
 	<properties>
 		<license.licenseName>gpl_v3</license.licenseName>
-		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
+		<license.copyrightOwners>Michael Abramoff and Fiji developers.</license.copyrightOwners>
+		<license.projectName>Bio-medical imaging in Java.</license.projectName>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
